@@ -1,6 +1,11 @@
 # AWS CloudFront and S3 Secure Static Website Hosting
 
-This project demonstrates how to securely host a static website using AWS CloudFront and an S3 bucket. The S3 bucket is kept private, and content is served through CloudFront.
+This project demonstrates how to securely host a static website using AWS CloudFront and an S3 bucket.
+## What is S3 and CloudFront?
+
+**Amazon S3 (Simple Storage Service)** is a scalable storage service that allows you to store and retrieve any amount of data at any time. S3 is commonly used to store static files, such as HTML, CSS, JavaScript, images, and videos.
+
+**Amazon CloudFront** is a Content Delivery Network (CDN) that delivers your content with low latency and high transfer speeds. CloudFront distributes content globally by caching it at edge locations closer to the end-users. When integrated with an S3 bucket, CloudFront can securely serve content while keeping the S3 bucket private.
 
 ## Project Overview
 
