@@ -24,7 +24,8 @@ Below is the architecture diagram for the project setup:
 
 * Navigate to the CloudFront console and create a new distribution.
 * Set the origin to the S3 bucket created in the previous step.
-* Under "Origin Settings," enable "Origin Access Control" to prevent direct access to the S3 bucket.
+* Under "Origin Settings," enable "Origin Access Control" (OAC) to prevent direct access to the S3 bucket.
+  * Create a new OAC by providing a name and description.
 
 ### 3. Configure S3 Bucket Policy
 
